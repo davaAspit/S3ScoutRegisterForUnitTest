@@ -44,10 +44,12 @@ namespace ScoutRegister.Entity
         /// Adds the relative to the list of ICE persons.
         /// </summary>
         /// <param name="relative">The relative to be added. Can't be null.</param>
-        public void AddIce(Relative relative)
+        /// <returns>An int describing the number of ICEs in the list</returns>
+        public int AddIce(Relative relative)
         {
             if (relative is null) throw new ArgumentNullException(nameof(relative));
             ices.Add(relative);
+            return ices.Count;
         }
 
 
