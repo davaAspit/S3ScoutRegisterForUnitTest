@@ -22,10 +22,14 @@ namespace ScoutRegister.Entity
         public string PhoneNumber
         {
             get { return phoneNumber; }
-            set {
+            set
+            {
                 (bool isValid, string errorMessage) = ValidatePhoneNumber(value);
-                if(isValid) phoneNumber = value;
-                throw new ArgumentException(errorMessage);
+                if (isValid) phoneNumber = value;
+                else
+                {
+                    throw new ArgumentException(errorMessage);
+                }
             }
         }
 
@@ -39,7 +43,7 @@ namespace ScoutRegister.Entity
             {
                 return (false, "The phone number can only contain digits");
             }
-            else if (value[0] =='0')
+            else if (value[0] == '0')
             {
                 return (false, "A phonenumber can't start with a 0");
             }
