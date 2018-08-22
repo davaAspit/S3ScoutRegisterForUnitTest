@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoutRegister.Entity", "ScoutRegister.Entity\ScoutRegister.Entity.csproj", "{4C955B55-81EF-4FD1-98F1-BA701C664319}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoutRegister.TestByDava", "ScoutRegister.TestByDava\ScoutRegister.TestByDava.csproj", "{2B78F4E0-579E-4931-89E2-98A2A5E5F04F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4C955B55-81EF-4FD1-98F1-BA701C664319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C955B55-81EF-4FD1-98F1-BA701C664319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C955B55-81EF-4FD1-98F1-BA701C664319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B78F4E0-579E-4931-89E2-98A2A5E5F04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B78F4E0-579E-4931-89E2-98A2A5E5F04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B78F4E0-579E-4931-89E2-98A2A5E5F04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B78F4E0-579E-4931-89E2-98A2A5E5F04F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
